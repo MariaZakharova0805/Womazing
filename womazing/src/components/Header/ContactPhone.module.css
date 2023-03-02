@@ -1,0 +1,26 @@
+.phone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.phone_icon {
+  margin-right: 8px;
+}
+
+.phone_number {
+  white-space: nowrap;
+  align-self: center;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.phone_number:hover {
+  color: #6e9c9f;
+}
+
+@media screen and (max-width: 800px) {
+  .phone_number {
+    display: none;
+  }
+}

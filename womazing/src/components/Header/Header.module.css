@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: var(--white);
+  padding: 41px 0;
+  z-index: 12;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightAlign {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 800px) {
+  .header {
+    padding: 15px 0;
+  }
+}

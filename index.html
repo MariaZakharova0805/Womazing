@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/standart.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Womazing</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="company-logo header_logo">
+          <img
+            src="components/img/Vector.svg"
+            alt="logo"
+            class="company_logo-img"
+          />
+          <p class="company_logo-text">womazing</p>
+        </div>
+        <nav class="header_menu">
+          <input type="checkbox" name="menu" id="btn-menu" />
+          <label for="btn-menu"><i class="icon-menu"></i></label>
+          <ul class="links_container">
+            <li>
+              <a href="#" data-link="main_page" class="page_links active-link"
+                >Главная</a
+              >
+            </li>
+            <li>
+              <a href="#" data-link="shop_page" class="page_links">Магазин</a>
+            </li>
+            <li>
+              <a href="#" data-link="about_page" class="page_links">О бренде</a>
+            </li>
+            <li>
+              <a href="#" data-link="contact_page" class="page_links"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header_menu-contact feedback_button">
+          <i class="icon-phone-outline"></i>
+          <a href="#" class="header_phone-number">+7 (495) 823-54-12</a>
+        </div>
+        <div class="goToCart">
+          <a href="#"
+            ><img
+              src="components/img/shopping-bag.svg"
+              alt="Shop_Cart"
+              class="header_shop-cart shaking-item"
+            /><span class="shop_cart-item-amount">0</span></a
+          >
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <!-- страница "ГЛАВНАЯ" -->
+      <section class="page main_page">
+        <!-- First Section  -->
+        <div class="firstSection">
+          <div class="container">
+            <div class="firstSection_textBox">
+              <div class="textBox" id="FirstText">
+                <h1 class="header_h1">Включай новый сезон с WOMAZING.</h1>
+                <p class="big_text">
+                  Мы обновили ассортимент - легендарные коллекции и новинки от
+                  отечественных дизайнеров
+                </p>
+              </div>
+
+              <div class="textBox hidden visuallyhidden" id="SecondText">
+                <h1 class="header_h1">Что-то новенькое. Мы заждались тебя.</h1>
+                <p class="big_text">
+                  Надоело искать себя в сером городе? Настало время новых идей,
+                  свежих красок и вдохновения с Womazing!
+                </p>
+              </div>
+
+              <div class="textBox hidden visuallyhidden" id="ThirdText">
+                <h1 class="header_h1">Новые поступления в этом сезоне</h1>
+                <p class="big_text">
+                  Утонченные сочетания и бархатные оттенки - вот то, что вы
+                  искали в этом сезоне. Время исследовать.
+                </p>
+              </div>
+
+              <div class="firstSection_textBox-rightAlign">
+                <a href="#" class="green_button goTo_shopPage"
+                  >Открыть магазин</a
+                >
+                <div class="firstSection_slider">
+                  <a
+                    data-name="FirstText"
+                    class="firstSection_slider-item firstSection_slider-item-active"
+                  ></a>
+                  <a
+                    data-name="SecondText"
+                    class="firstSection_slider-item"
+                  ></a>
+                  <a data-name="ThirdText" class="firstSection_slider-item"></a>
+                </div>
+              </div>
+            </div>
+            <div class="firstSection_imageBox">
+              <div class="imageBox-imgOne">
+                <img src="./components/img/firstpage_firstPic.png" alt="" />
+              </div>
+              <div class="imageBox-imgTwo">
+                <img src="./components/img/firstpage_secondPic.png" alt="" />
+              </div>
+              <div class="imageBox-imgThree">
+                <img src="./components/img/firstpage_thirdPic.png" alt="" />
+              </div>
+              <div class="imageBox-imgFour"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second section -->
+        <div class="secondSection middleSection">
+          <div class="container">
+            <h2 class="header_h2">Новая коллекция</h2>
+            <div class="secondSection_container middleSection_container">
+              <div class="secondSection_item">
+                <a href="#" class="item_image-link"
+                  ><img
+                    class="item_item-img"
+                    src="./components/img/clothes/t-shirt_USA.png"
+                    alt="t-shirt"
+                /></a>
+                <h4 class="header_h4">Футболка USA</h4>
+                <p class="price_text"><span class="crossed">$229</span> $129</p>
+              </div>
+              <div class="secondSection_item">
+                <a href="#" class="item_image-link"
+                  ><img
+                    class="item_item-img"
+                    src="./components/img/clothes/swimmingSuit_Glow.png"
+                    alt="swimming-suit"
+                /></a>
+                <h4 class="header_h4">Купальник Glow</h4>
+                <p class="price_text">$129</p>
+              </div>
+              <div class="secondSection_item">
+                <a href="#" class="item_image-link"
+                  ><img
+                    class="item_item-img"
+                    src="./components/img/clothes/SweetShot_white.png"
+                    alt="sweet-shot"
+                /></a>
+                <h4 class="header_h4">Свитшот Sweet Shot</h4>
+                <p class="price_text">$129</p>
+              </div>
+            </div>
+
+            <div class="secondSection_button">
+              <a href="#" class="green_button goTo_shopPage">Открыть магазин</a>
+            </div>
+          </div>
+        </div>
+        <!-- Third section -->
+        <div class="thirdSection middleSection">
+          <div class="container">
+            <h2 class="header_h2">Что для нас важно</h2>
+            <div class="thirdSection_container middleSection_container">
+              <div class="thirdSection_item middleSection_item">
+                <img src="./components/img/quality.png" alt="" />
+                <h3 class="header_h3">Качество</h3>
+                <p class="regular_text">
+                  Наши профессионалы работают на лучшем оборудовании для пошива
+                  одежды беспрецедентного качества
+                </p>
+              </div>
+              <div class="thirdSection_item middleSection_item">
+                <img src="./components/img/speed.png" alt="" />
+                <h3 class="header_h3">Скорость</h3>
+                <p class="regular_text">
+                  Благодаря отлаженной системе в Womazing мы можем отшивать до
+                  20-ти единиц продукции в наших собственных цехах
+                </p>
+              </div>
+              <div class="thirdSection_item middleSection_item">
+                <img src="./components/img/hand.png" alt="" />
+                <h3 class="header_h3">Ответственность</h3>
+                <p class="regular_text">
+                  Мы заботимся о людях и планете. Безотходное производство и
+                  комфортные условия труда - все это Womazing
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fourth section -->
+        <div class="fourthSection">
+          <div class="container">
+            <h2 class="header_h2">Команда мечты Womazing</h2>
+            <div class="fourthSection_container">
+              <div class="fourthSection_slider">
+                <div class="fourthSection_slider-images">
+                  <img
+                    src="./components/img/image_one.png"
+                    alt=""
+                    class="slider_img"
+                  />
+                  <img
+                    src="./components/img/image_two.png"
+                    alt=""
+                    class="slider_img hidden visuallyhidden"
+                  />
+                  <img
+                    src="./components/img/image_three.png"
+                    alt=""
+                    class="slider_img hidden visuallyhidden"
+                  />
+                </div>
+                <div class="fourthSection_slider-right">
+                  <img src="./components/img/arrow.png" alt="" />
+                </div>
+              </div>
+
+              <div class="fourthSection_text">
+                <h3 class="header_h3">Для каждой</h3>
+                <p class="regular_text">
+                  Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.
+                </p>
+                <p class="regular_text">
+                  Womazing ищет эти мелочи и создает прекрасные вещи, которые
+                  выгодно подчеркивают достоинства каждой девушки.
+                </p>
+                <p class="regular_text">
+                  <a href="#" class="goTo_aboutPage green_text"
+                    >Подробнее о бренде</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--конец страницы "ГЛАВНАЯ"  -->
+
+      <!--  Страница "МАГАЗИН" -->
+      <section class="page shop_page hiddenSection">
+        <div class="shopSection">
+          <div class="container">
+            <h1 class="header_h1">Магазин</h1>
+            <p class="regular_text breadCrumps">
+              <a href="#" class="goTo_mainPage">Главная</a> -
+              <span class="breadCrumps_active">Магазин</span>
+            </p>
+            <div class="shop_filter">
+              <button
+                class="black_button filter_button black_button-active"
+                data-filter="all"
+              >
+                Все
+              </button>
+              <button class="black_button filter_button" data-filter="jacket">
+                Пальто
+              </button>
+              <button
+                class="black_button filter_button"
+                data-filter="sweetshirt"
+              >
+                Толстовки
+              </button>
+              <button class="black_button filter_button" data-filter="t-shirt">
+                Футболки
+              </button>
+              <button
+                class="black_button filter_button"
+                data-filter="swimmingsuit"
+              >
+                Купальники
+              </button>
+            </div>
+            <!-- Здесь будут отображатся товары из объекта shopItems(cart.js) -->
+            <div class="shop_container"></div>
+          </div>
+        </div>
+
+        <!--  Страница товара -->
+
+        <div class="itemSection hidden">
+          <div class="container">
+            <h1 class="header_h1 item_name"></h1>
+            <p class="regular_text breadCrumps">
+              <a href="#" class="goTo_mainPage">Главная</a> -
+              <a href="#" class="goBackTo_shopPage">Магазин</a> -
+              <span class="breadCrumps_active item_name"></span>
+            </p>
+            <div class="itemSection_container">
+              <img
+                src="./components/img/clothes/jacket_brown.png"
+                class="itemSection_container-img item_IMG"
+              />
+              <div class="itemSection_container-left">
+                <h2 class="header_h2 item_price">11</h2>
+                <h4 class="header_h4">Выберете размер</h4>
+                <div class="item_sizes">
+                  <!-- здесь будут размеры товаров из объекта -->
+                </div>
+                <button class="green_button push_toCart">
+                  Добавить в корзину
+                </button>
+                <div class="regular_text cart_notes"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- конец Страницы "товара" -->
+      </section>
+      <!-- конец Страницы "МАГАЗИН" -->
+
+      <!--  Страница "О БРЕНДЕ"  -->
+      <section class="page about_page hiddenSection">
+        <div class="aboutSection">
+          <div class="container">
+            <h1 class="header_h1">О бренде</h1>
+            <p class="regular_text breadCrumps">
+              <a href="#" class="goTo_mainPage">Главная</a> -
+              <span class="breadCrumps_active">О бренде</span>
+            </p>
+            <div class="aboutSection_columnOne">
+              <div class="aboutSection_columnOne-img">
+                <img
+                  src="./components/img/firstSection_columnOne-img.png"
+                  alt="idea_and_woman"
+                />
+              </div>
+              <div class="aboutSection_text">
+                <h3 class="header_h3">Идея и женщина</h3>
+                <p class="regular_text">
+                  Womazing была основана в 2010-ом и стала одной из самых
+                  успешных компаний нашей страны. Как и многие итальянские
+                  фирмы, Womazing остаётся семейной компанией, хотя ни один из
+                  членов семьи не является модельером.
+                </p>
+                <p class="regular_text">
+                  Мы действуем по успешной формуле, прибегая к услугам известных
+                  модельеров для создания своих коллекций. Этот метод был описан
+                  критиком моды Колином Макдауэллом как форма дизайнерского
+                  со-творчества, характерная для ряда итальянских prêt-a-porter
+                  компаний.
+                </p>
+              </div>
+            </div>
+            <div class="aboutSection_columnTwo">
+              <div class="aboutSection_text">
+                <h3 class="header_h3">Магия в деталях</h3>
+                <p class="regular_text">
+                  Первый магазин Womazing был открыт в маленьком городке на
+                  севере страны в 2010-ом году. Первая коллекция состояла из
+                  двух пальто и костюма, которые были копиями парижских моделей.
+                </p>
+                <p class="regular_text">
+                  Несмотря на то, что по образованию основательница была
+                  адвокатом, ее семья всегда была тесно связана с шитьём
+                  (прабабушка основательницы шила одежду для женщин, а мать
+                  основала профессиональную школу кроя и шитья). Стремление
+                  производить одежду для масс несло в себе большие перспективы,
+                  особенно в то время, когда высокая мода по-прежнему
+                  доминировала, а рынка качественного prêt-a-porter попросту не
+                  существовало.
+                </p>
+              </div>
+
+              <div class="aboutSection_columnTwo-img">
+                <img
+                  src="./components/img/firstSection_columnTwo-img.png"
+                  alt="magic_in_details"
+                />
+              </div>
+            </div>
+            <div class="aboutSection-green_button">
+              <a href="#" class="green_button goTo_shopPage"
+                >Перейти в магазин</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- конец страницы "О БРЕНДЕ" -->
+
+      <!--  Страница "КОНТАКТЫ" -->
+      <section class="page contact_page hiddenSection">
+        <div class="contactSection">
+          <div class="container">
+            <h1 class="header_h1">Контакты</h1>
+            <p class="regular_text breadCrumps">
+              <a href="#" class="goTo_mainPage">Главная</a> -
+              <span class="breadCrumps_active">Контакты</span>
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2249.138790872269!2d37.532474215928!3d55.68657473053573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LMuINCc0L7RgdC60LLQsCwgMy3RjyDRg9C70LjRhtCwINCh0YLRgNC-0LjRgtC10LvQtdC5LCAyNQ!5e0!3m2!1sru!2skz!4v1675330057880!5m2!1sru!2skz"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="contactSection_contacts">
+              <div>
+                <p class="regular_text">Телефон</p>
+                <h4><a href="tel:+74958235412">+7 (495) 823-54-12</a></h4>
+              </div>
+              <div>
+                <p class="regular_text">E-mail</p>
+                <h4>
+                  <a href="mailto:info@sitename.com">info@sitename.com</a>
+                </h4>
+              </div>
+              <div>
+                <p class="regular_text">Адрес</p>
+                <h4>
+                  <a
+                    href="https://goo.gl/maps/h75oXq4s4GHo2P4DA"
+                    target="_blank"
+                    >г. Москва, 3-я улица Строителей, 25</a
+                  >
+                </h4>
+              </div>
+            </div>
+            <div class="contactSection_button">
+              <button class="green_button feedback_button">Написать нам</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- конец Страницы "КОНТАКТЫ" -->
+
+      <!--  КОРЗИНА ТОВАРОВ -->
+
+      <section class="page cart_page hiddenSection">
+        <div class="cartSection">
+          <div class="container">
+            <h1 class="header_h1">Корзина</h1>
+            <p class="regular_text breadCrumps">
+              <a href="#" class="goTo_mainPage cart-link">Главная</a> -
+              <span class="breadCrumps_active">Корзина</span>
+            </p>
+            <table id="cart_table">
+              <!-- <thead class="cart_table-header">
+              <th class="header_h4 cart_name">Товар</th>
+              <th class="header_h4 cart_size">Размер</th>
+              <th class="header_h4 cart_price">Цена</th>
+              <th class="header_h4 cart_amount">Кол-во</th>
+              <th class="header_h4 cart_totalAmount">Всего</th>
+            </thead> -->
+            </table>
+            <div class="cartSection_bottom">
+              <h3 class="header_h3">
+                Итого: <span class="result_number"></span>
+              </h3>
+              <button class="green_button make_order">Оформить заказ</button>
+            </div>
+          </div>
+        </div>
+        <!-- Оформление заказа -->
+        <div class="cartOrder hiddenSection">
+          <div class="container">
+            <h1 class="header_h1">Корзина</h1>
+            <p class="regular_text breadCrumps">
+              <a href="#" class="goTo_mainPage cart-link">Главная</a> -
+              <a href="#" class="goBackToCart cart-link">Корзина</a> -
+              <span class="breadCrumps_active">Оформление заказа</span>
+            </p>
+            <div class="cartOrder_container">
+              <div class="cartOrder_customerData cartOrder_container-item">
+                <h3 class="header_h3">Данные покупателя</h3>
+                <input type="text" placeholder="Имя" />
+                <input type="text" placeholder="E-mail" />
+                <input type="number" placeholder="Телефон" />
+              </div>
+              <div class="cartOrder_adressData cartOrder_container-item">
+                <h3 class="header_h3">Адрес получателя</h3>
+                <input type="text" placeholder="Страна" />
+                <input type="text" placeholder="Город" />
+                <input type="text" placeholder="Улица" />
+                <input type="text" placeholder="Дом" />
+                <input type="text" placeholder="Квартира" />
+              </div>
+              <div class="cartOrder_adressData cartOrder_container-item">
+                <h3 class="header_h3">Комментарии</h3>
+                <input type="text" placeholder="Ваши комментарии" />
+              </div>
+              <div class="cartOrder_adressData cartOrder_container-item">
+                <h3 class="header_h3">Ваш заказ на сумму:</h3>
+                <h4 class="header_h3 cart_resultPrice"></h4>
+              </div>
+              <div class="cartOrder_adressData cartOrder_container-item">
+                <h3 class="header_h3">Способы оплаты</h3>
+                <div>
+                  <input
+                    type="radio"
+                    id="card"
+                    name="payment_method"
+                    value="card"
+                  />
+                  <label for="contactChoice1">Картой</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="cash"
+                    name="payment_method"
+                    value="cash"
+                  />
+                  <label for="contactChoice2">Наличными</label>
+                </div>
+
+                <button class="green_button finish_order">
+                  Разместить заказ
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- конец страницы  "КОРЗИНА ТОВАРОВ" -->
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_column-first">
+          <div class="company-logo footer_logo">
+            <img
+              src="components/img/Vector.svg"
+              alt="logo"
+              class="company_logo-img"
+            />
+            <p class="company_logo-text">womazing</p>
+          </div>
+          <div class="footer_text">
+            <p>© Все права защищены</p>
+            <p>Политика конфиденциальности</p>
+            <p>Публичная оферта</p>
+          </div>
+        </div>
+        <div class="footer_column-second">
+          <a class="footer_phone" href="tel:+74958235412">+7 (495) 823-54-12</a>
+          <a class="footer_email" href="mailto:hello@womazing.com"
+            >hello@womazing.com</a
+          >
+        </div>
+        <div class="footer_column-third">
+          <div class="footer_social">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="icon-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="icon-facebook-squared"></i
+            ></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="icon-twitter"></i
+            ></a>
+          </div>
+          <img
+            class="footer_cc-details"
+            src="./components/img/visa-mastercard.svg"
+            alt="visa and masterCard"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <!-- FEEDBACK FORM -->
+    <div class="nav">
+      <h3 class="header_h3">Заказать обратный звонок</h3>
+      <input placeholder="Имя" class="regular_text" id="name" />
+      <input placeholder="E-mail" class="regular_text" id="email" />
+      <input placeholder="Телефон" class="regular_text" id="number" />
+      <button class="green_button order-button">Заказать звонок</button>
+    </div>
+
+    <!-- Заказать обртаный звонок, окно после заказа -->
+    <div class="nav_after">
+      <h3 class="header_h3">Отлично! Мы скоро вам перезвоним</h3>
+      <button class="green_button finish-order">Закрыть</button>
+    </div>
+
+    <!-- Кастомный алерт, если форма заполнена неверно -->
+    <div class="custom_alert">
+      <h3 class="header_h3">Пожалуйста, Заполните все поля для отправки</h3>
+      <button class="green_button сlose_alert">ОК</button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/61795b381c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/cart.js"></script>
+  </body>
+</html>

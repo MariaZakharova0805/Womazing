@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="standart.css" type="text/css" />
+    <link rel="stylesheet" href="about.css" type="text/css" />
+    <title>Womazing</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="company-logo header_logo">
+          <img
+            src="components/img/Vector.svg"
+            alt="logo"
+            class="company_logo-img"
+          />
+          <p class="company_logo-text">womazing</p>
+        </div>
+        <nav class="header_menu">
+          <input type="checkbox" name="menu" id="btn-menu" />
+          <label for="btn-menu"><i class="icon-menu"></i></label>
+          <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="about.html" class="active-link">О бренде</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header_menu-contact feedback_button">
+          <i class="icon-phone-outline"></i>
+          <a href="#" class="header_phone-number">+7 (495) 823-54-12</a>
+        </div>
+        <div class="goToCart">
+          <a href="cart.html"
+            ><img
+              src="components/img/shopping-bag.svg"
+              alt="Shop_Cart"
+              class="header_shop-cart shaking-item"
+            /><span class="shop_cart-item-amount">1</span></a
+          >
+        </div>
+      </div>
+    </header>
+    
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_column-first">
+          <div class="company-logo footer_logo">
+            <img
+              src="components/img/Vector.svg"
+              alt="logo"
+              class="company_logo-img"
+            />
+            <p class="company_logo-text">womazing</p>
+          </div>
+          <div class="footer_text">
+            <p>© Все права защищены</p>
+            <p>Политика конфиденциальности</p>
+            <p>Публичная оферта</p>
+          </div>
+        </div>
+        <div class="footer_column-second">
+          <ul class="footer_menu">
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="about.html" class="active-link">О бренде</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer_column-third">
+          <a class="footer_phone" href="tel:+74958235412">+7 (495) 823-54-12</a>
+          <a class="footer_email" href="mailto:hello@womazing.com"
+            >hello@womazing.com</a
+          >
+          <div class="footer_social">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="icon-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="icon-facebook-squared"></i
+            ></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="icon-twitter"></i
+            ></a>
+          </div>
+          <img
+            class="footer_cc-details"
+            src="./components/img/visa-mastercard.svg"
+            alt="visa and masterCard"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <!-- FEEDBACK FORM -->
+    <div class="nav">
+      <h3 class="header_h3">Заказать обратный звонок</h3>
+      <input placeholder="Имя" class="regular_text" id="name" />
+      <input placeholder="E-mail" class="regular_text" id="email" />
+      <input placeholder="Телефон" class="regular_text" id="number" />
+      <button class="green_button order-button">Заказать звонок</button>
+    </div>
+
+    <!-- Заказать обртаный звонок, окно после заказа -->
+    <div class="nav_after">
+      <h3 class="header_h3">Отлично! Мы скоро вам перезвоним</h3>
+      <button class="green_button finish-order">Закрыть</button>
+    </div>
+
+    <!-- Кастомный алерт, если форма заполнена неверно -->
+    <div class="custom_alert">
+      <h3 class="header_h3">Пожалуйста, Заполните все поля для отправки</h3>
+      <button class="green_button сlose_alert">ОК</button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/61795b381c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
