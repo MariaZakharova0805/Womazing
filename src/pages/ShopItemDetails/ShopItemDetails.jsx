@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router";
 import uuid from "react-uuid";
 import c from "./ShopItemDetails.module.css";

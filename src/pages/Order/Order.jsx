@@ -10,7 +10,7 @@ import { formOrderData, formOrderJSON } from "../../utils/utils";
 import c from "./Order.module.css";
 
 const Order = () => {
-  const { cartItems, totalPrice, clienData, setClienData } = useItems(
+  const { cartItems, totalPrice } = useItems(
     (state) => state
   );
   const { setVisible } = useThankyouAlert((state) => state);

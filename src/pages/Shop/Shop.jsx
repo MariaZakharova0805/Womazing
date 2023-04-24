@@ -45,7 +45,7 @@ const Shop = () => {
               onClick={() => {
                 setButtonActive(cat.name);
               }}
-              className={cat.name == category ? c.button_active : c.button}
+              className={cat.name === category ? c.button_active : c.button}
               key={cat.id}
             >
               {cat.text}
