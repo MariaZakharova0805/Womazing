@@ -1,0 +1,24 @@
+.button {
+  height: 68px;
+  width: 243px;
+  padding: 22px 50px 22px 50px;
+  background-color: var(--green-color);
+  color: var(--white);
+  border: none;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: var(--white);
+  color: var(--green-color);
+  border: 1px solid var(--green-color);
+  cursor: pointer;
+}
+@media screen and (max-width: 300px) {
+  .button {
+    height: 58px;
+    width: 160px;
+    padding: 15px 30px 15px 30px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,35 @@
+.shop_item {
+  width: 100%;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.bg {
+  background: var(--green-color);
+}
+
+.header_h4 {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.price_text {
+  font-size: 15px;
+  line-height: 21px;
+  color: var(--grey);
+  text-align: center;
+}
+
+.imageLink {
+  margin-bottom: 24px;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.shop_item_IMG {
+  width: 100%;
+}
+.shop_item_IMG:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=20);
+}

@@ -1,0 +1,90 @@
+.table {
+  width: 90%;
+  margin: 0 auto;
+}
+.table_header {
+  font-weight: 900;
+}
+
+.table_headerFirst {
+  text-align: left;
+  padding-left: 35px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.table_headers {
+  text-align: right;
+  font-size: 20px;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.footer {
+  text-align: right;
+}
+.header_h3 {
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+.emptyCart {
+  text-align: center;
+}
+
+.emptyCart_text {
+  margin: 50px 0;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .table {
+    width: 100%;
+  }
+  .table_header {
+    font-size: 12px;
+  }
+  .table_headerFirst {
+    padding-left: 10px;
+  }
+
+  .header_h3 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .table_header {
+    font-size: 10px;
+  }
+  .table_headerFirst {
+    padding-left: 5px;
+  }
+
+  .table_headerFirst,
+  .table_headers {
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .header_h3 {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .table_headerFirst,
+  .table_headers {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

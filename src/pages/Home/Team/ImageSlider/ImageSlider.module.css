@@ -1,0 +1,14 @@
+.slideContainer {
+  width: 50%;
+}
+.slideContainer img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .slideContainer {
+    width: 100%;
+    padding: 0;
+  }
+}

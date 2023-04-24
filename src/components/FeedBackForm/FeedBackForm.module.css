@@ -1,0 +1,49 @@
+.close_btn {
+  text-align: center;
+}
+.form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.from_item {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.from_item_text textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+  margin-bottom: 30px;
+}
+
+.form_send_notification {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    font-size: 15px;
+  }
+  .from_item {
+    height: 50px;
+  }
+  .from_item_text textarea {
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .form_send_notification {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

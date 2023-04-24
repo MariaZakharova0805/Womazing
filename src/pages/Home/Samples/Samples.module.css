@@ -1,0 +1,38 @@
+.samples {
+  margin-bottom: 130px;
+}
+
+.header_h2 {
+  margin-bottom: 70px;
+}
+.img_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wraps;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media screen and (max-width: 670px) {
+
+  .samples {
+    margin-bottom: 70px;
+  }
+  
+
+  .img_block {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .img_block a {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .samples {
+    margin-bottom: 40px;
+  }
+}

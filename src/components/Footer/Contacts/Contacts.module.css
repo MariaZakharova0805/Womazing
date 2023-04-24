@@ -1,0 +1,11 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+.footer_contact {
+  margin-bottom: 10px;
+}
+
+.footer_contact:hover {
+  color: #6e9c9f;
+}

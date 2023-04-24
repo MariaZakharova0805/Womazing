@@ -1,0 +1,55 @@
+.header_h2 {
+  margin-bottom: 70px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 60px;
+  margin-bottom: 130px;
+}
+
+.img {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 670px) {
+  .header_h2 {
+    margin-bottom: 30px;
+  }
+
+  .slogan {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+  }
+  .slogan_item {
+    margin-bottom: 50px;
+  }
+  .slogan:last-child {
+    margin-bottom: 70px;
+  }
+  .slogan_item p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .img {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .text {
+    font-size: 25px;
+    line-height: 35px;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .slogan {
+    margin-bottom: 40px;
+  }
+}

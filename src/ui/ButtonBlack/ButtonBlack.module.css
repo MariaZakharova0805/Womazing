@@ -1,0 +1,25 @@
+/* Кнопка для выбора эл-ов магазина (черно-белая)*/
+.button {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  line-height: 23.8px;
+  border: 1px solid var(--black);
+  transition: 0.5s;
+  width: 200px;
+  height: 62px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button_active {
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+}

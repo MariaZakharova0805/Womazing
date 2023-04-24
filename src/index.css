@@ -1,0 +1,247 @@
+/* Обнуление стилей */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+a {
+  transition: 0.5s;
+}
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Цвета*/
+:root {
+  --green-color: #6e9c9f;
+  --yellow-color: #f1eadc;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #998e78;
+  --green-color-transparent: rgba(110, 156, 159, 0.95);
+}
+
+/* Иконки */
+@font-face {
+  font-family: "fontello";
+  src: url("./app/icons/fontello.eot?50069958");
+  src: url("./app/icons/fontello.eot?50069958#iefix")
+      format("embedded-opentype"),
+    url("./app/icons/fontello.woff2?50069958") format("woff2"),
+    url("./app/icons/fontello.woff?50069958") format("woff"),
+    url("./app/icons/fontello.ttf?50069958") format("truetype"),
+    url("./app/icons/fontello.svg?50069958#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down-open:before {
+  content: "\e800";
+}
+.icon-up-open:before {
+  content: "\e801";
+}
+.icon-menu:before {
+  content: "\e802";
+}
+.icon-twitter:before {
+  content: "\f309";
+}
+.icon-facebook-squared:before {
+  content: "\f30e";
+}
+.icon-instagram:before {
+  content: "\f31e";
+}
+
+.icon-menu,
+.icon-twitter,
+.icon-facebook-squared,
+.icon-instagram {
+  color: #6e9c9f;
+}
+
+.icon-menu:hover,
+.icon-twitter:hover,
+.icon-facebook-squared:hover,
+.icon-instagram:hover {
+  background-color: #6e9c9f;
+  color: #f1eadc;
+  cursor: pointer;
+}
+
+.icon-up-open:hover,
+.icon-down-open:hover {
+  cursor: pointer;
+  color: gray;
+  transition: 0.5s;
+}
+
+/* Шрифт Raleway raleway-regular - latin_cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./app/fonts/raleway-v28-latin_cyrillic-regular.eot");
+  src: local(""),
+    url("./app/fonts/raleway-v28-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./app/fonts/raleway-v28-latin_cyrillic-regular.woff2") format("woff2"),
+    url("./app/fonts/raleway-v28-latin_cyrillic-regular.woff") format("woff"),
+    url("./app/fonts/raleway-v28-latin_cyrillic-regular.ttf") format("truetype"),
+    url("./app/fonts/raleway-v28-latin_cyrillic-regular.svg#Raleway")
+      format("svg");
+}
+* {
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+/* Общие настройки */
+body {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+}
+a {
+  color: var(--black);
+  text-decoration: none;
+  font-family: "Raleway", Arial, sans-serif;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1290px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* React styles */
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.link {
+  cursor: pointer;
+  margin: 0 10px;
+}
+.link:hover {
+  color: #6e9c9f;
+}
+.link_active {
+  cursor: pointer;
+  margin: 0 10px;
+  color: #d51e1e;
+}

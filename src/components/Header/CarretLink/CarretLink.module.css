@@ -1,0 +1,30 @@
+.icon {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.icon:hover::after {
+  content: "Открыть корзину";
+  position: absolute; /* Абсолютное позиционирование */
+  right: 20%;
+  top: 120%;
+  background-color: var(--green-color);
+  color: var(--white);
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 150px;
+}
+.itemsAmount {
+  background-color: var(--grey);
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  color: var(--white);
+  font-size: 10px;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  text-align: center;
+}

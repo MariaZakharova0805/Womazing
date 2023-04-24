@@ -1,0 +1,78 @@
+.slider {
+  margin-top: 50px;
+  text-align: left;
+}
+.slider_header {
+  margin-top: 100px;
+  margin-bottom: 26px;
+  font-size: 55px;
+  line-height: auto;
+  font-weight: normal;
+}
+
+.slider_text {
+  width: 80%;
+  text-align: right;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+.slider_text {
+  width: 80%;
+  text-align: right;
+  margin-left: 20%;
+}
+
+.slider_btns {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+.slider_btn {
+  width: 29px;
+  height: 3px;
+  background-color: var(--grey);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.slider_btn_active {
+  width: 29px;
+  height: 3px;
+  background-color: var(--black);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.slider_btn:hover {
+  background-color: var(--black);
+}
+.btn_OpenShop {
+  display: block;
+  text-align: right;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1214px) {
+  .slider {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slider_header {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slider_header {
+    font-size: 30px;
+  }
+  .slider_text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

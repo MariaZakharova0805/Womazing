@@ -1,0 +1,89 @@
+/* О нас */
+.about {
+  margin: 141px auto;
+}
+
+.header_h1 {
+  margin-bottom: 26px;
+  font-size: 55px;
+  line-height: 60.6px;
+}
+
+.header_h3 {
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 46px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.about_img {
+  max-width: 442px;
+}
+.top .about_img {
+  margin-right: 94px;
+}
+
+.bottom .about_img {
+  margin-left: 94px;
+}
+
+.about_text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  max-width: 542px;
+}
+
+.buttonLink {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .top,
+  .bottom {
+    margin-bottom: 50px;
+  }
+  .top {
+    flex-direction: column;
+  }
+  .bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .header_h3 {
+    text-align: center;
+  }
+  .about_text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .top .about_img {
+    width: 90%;
+    margin: 20px auto 40px;
+  }
+
+  .bottom .about_img {
+    width: 90%;
+    margin: 0px auto 40px;
+  }
+  .about_text p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .about {
+    margin: 80px auto;
+  }
+}
