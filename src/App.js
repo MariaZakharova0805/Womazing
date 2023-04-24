@@ -10,13 +10,12 @@ import ScrollToTop from "./components/ScrollTop";
 function App() {
   return (
     <div className="App">
-      <ScrollToTop/>
+      <ScrollToTop />
       <Header />
       <Outlet />
       <Footer />
-       {/*
       <FeedBackForm />
-      <ThankyouAlert/> */}
+      <ThankyouAlert />
     </div>
   );
 }
