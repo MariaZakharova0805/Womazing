@@ -16,6 +16,8 @@
 ## Deploy
 <a href="https://womazing-eight.vercel.app/" target="_blank">womazing.com</a>
 
+[womazing.com]([http://example.com](https://womazing-eight.vercel.app/)){target="_blank"}
+
 ## Технологии
 - React
 - JS
