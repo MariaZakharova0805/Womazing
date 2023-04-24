@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
-import uuid from "react-uuid";
+import uuid from "uuid";
 import c from "./ShopItemDetails.module.css";
 import { useItems } from "../../store/useStore";
 import Container from "../../shared/Container/Container";
