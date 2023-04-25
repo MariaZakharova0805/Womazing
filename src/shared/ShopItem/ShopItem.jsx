@@ -6,7 +6,7 @@ const ShopItem = (props) => {
     <div key={props.id} id={props.id} className={c.shop_item}>
       <div className={c.imageLink}>
         <div className={c.bg}>
-          <img className={c.shop_item_IMG} src={props.img} alt={props.name} />
+          <img className={c.shop_item_IMG} src={props.img} alt={props.name}/>
         </div>
       </div>
       <h4 className={c.header_h4}>{props.name}</h4>

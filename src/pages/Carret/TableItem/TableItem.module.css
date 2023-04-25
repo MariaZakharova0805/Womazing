@@ -70,6 +70,10 @@
   .cart_item_amount {
     padding-right: 5px;
   }
+
+  .item_name {
+    font-size: 15px;
+  }
 }
 
 .amountBtn {

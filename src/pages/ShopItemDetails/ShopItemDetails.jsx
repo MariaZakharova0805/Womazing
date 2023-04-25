@@ -12,7 +12,7 @@ import {
   countTotalPrice,
 } from "../../utils/utils";
 
-const ShopItemDetails = () => { 
+const ShopItemDetails = () => {
   const { name } = useParams();
   const {
     shopItems,
@@ -26,11 +26,13 @@ const ShopItemDetails = () => {
     setTotalPrice,
   } = useItems((state) => state);
 
+  //Выбор размера, предупреждение
   const chooseSize = (size) => {
     setChosenSize(size);
     setAlert("");
   };
 
+  //Обновление кол-ва товаров в
   React.useEffect(() => {
     countCartNumber(cartItems, setCartItemsAmount);
     countTotalPrice(cartItems, setTotalPrice);
@@ -42,7 +44,7 @@ const ShopItemDetails = () => {
         <div className={c.shopItem} key={item.id}>
           <div className={c.shopItem_image}>
             <HeaderH1>{item.name}</HeaderH1>
-            <img src={item.img} />
+            <img src={item.img}/>
           </div>
           <div className={c.shopItem_details}>
             <h2>{item.price}$</h2>

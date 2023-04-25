@@ -2,6 +2,7 @@
   width: 100%;
   background-color: var(--yellow-color);
   z-index: 12;
+  padding: 40px 0;
 }
 .container {
   max-width: 1110px;
@@ -22,6 +23,7 @@
 @media screen and (max-width: 1000px) {
   .footer {
     height: fit-content;
+    padding: 20px 0;
   }
 }
 
@@ -39,5 +41,8 @@
 @media screen and (max-width: 500px) {
   .container {
     flex-direction: column;
+  }
+  .footer {
+    padding: 5px 0;
   }
 }

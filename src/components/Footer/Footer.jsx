@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "../../shared/Container/Container";
 import Contacts from "./Contacts/Contacts";
 import c from "./Footer.module.css";
 import License from "./Licines/License";

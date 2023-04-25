@@ -41,14 +41,14 @@ const Order = () => {
   };
 
   //Вывод списка товаров
-  const finalOrder = cartItems.map((item, n) => {
-    n++;
-    return (
-      <p key={item.id}>
-        {n}. {item.name}({item.size}): {item.amount} шт.;
-      </p>
-    );
-  });
+  // const finalOrder = cartItems.map((item, n) => {
+  //   n++;
+  //   return (
+  //     <p key={item.id}>
+  //       {n}. {item.name}({item.size}): {item.amount} шт.;
+  //     </p>
+  //   );
+  // });
 
   //Смотрит за добавлением формы
   React.useEffect(() => {
