@@ -14,7 +14,7 @@
 
 
 ## Deploy
-<a href="https://womazing-eight.vercel.app/" target="_blank">womazing.com</a>
+<a href="https://womazing-cra.vercel.app/" target="_blank">womazing.com</a>
 
 ## Технологии
 - React
