@@ -35,3 +35,9 @@
 .carret {
   min-width: 24px
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 10px 0;
+  }
+}

@@ -2,17 +2,14 @@
   width: 100%;
   background-color: var(--yellow-color);
   z-index: 12;
-
-  /* max-height: 150px; */
 }
 .container {
-  width: 90%;
-  margin: 20px auto;
+  max-width: 1110px;
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: top;
-  padding-top: 20px;
 }
 
 @media screen and (max-width: 1290px) {

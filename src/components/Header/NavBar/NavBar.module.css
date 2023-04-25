@@ -27,10 +27,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .links {
-    display: grid;
-    grid-template-columns: 8fr 1fr 1fr;
-  }
   .burger {
     display: block;
     text-align: right;

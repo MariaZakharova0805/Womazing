@@ -8,13 +8,11 @@ import SocialLinks from "./Socials/SocialLinks";
 const Footer = () => {
   return (
     <div className={c.footer}>
-      <Container>
-        <div className={c.container}>
-          <License />
-          <Contacts />
-          <SocialLinks />
-        </div>
-      </Container>
+      <div className={c.container}>
+        <License />
+        <Contacts />
+        <SocialLinks />
+      </div>
     </div>
   );
 };

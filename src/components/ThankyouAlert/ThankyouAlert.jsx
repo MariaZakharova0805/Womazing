@@ -18,19 +18,11 @@ const ThankyouAlert = () => {
   };
 
   return (
-    <NavLink to={"/"} className={c.link}>
+    <NavLink to={"/"}>
       <div className={rootClasses.join(" ")} onClick={(e) => closeAlert(e)}>
         <div className={c.content} onClick={(e) => e.stopPropagation()}>
           <p className={c.text}>Ваша заявка отправлена. Спасибо за заказ!</p>
-          <span
-            onClick={(e) => {
-              closeAlert(e);
-            }}
-          >
-            <NavLink to={"/"} className={c.link}>
-              Перейти на главную
-            </NavLink>
-          </span>
+          <p className={c.link}>Перейти на главную</p>
         </div>
       </div>
     </NavLink>

@@ -13,12 +13,12 @@
   margin-bottom: 30px;
 }
 
-
 @media screen and (max-width: 500px) {
-  .icon-twitter,
-  .icon-instagram,
-  .icon-facebook-squared,
-  .icon-menu {
+  .footer_social {
+    margin-bottom: 0px;
+  }
+  .footer_social a {
+    height: fit-content;
     font-size: 20px;
   }
 }
