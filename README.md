@@ -11,7 +11,7 @@ Online store for women's clothing
 - Registration of goods and sending an order by mail
 
 ## Deploy
-<a href="https://womazing-eight.vercel.app/" target="_blank">womazing.com</a>
+<a href="https://womazing-cra.vercel.app/" target="_blank">womazing.com</a>
 
 ## Technologies
 - React
