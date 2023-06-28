@@ -385,7 +385,6 @@ export const useThankyouAlert = create((set) => ({
 }));
 
 export const useFeedBack = create((set) => ({
-  //Слайдер Команда мечты
   feedBackData: [],
   setFeedBackData: (formData, techData) => {
     set((state) => ({
@@ -397,4 +396,3 @@ export const useFeedBack = create((set) => ({
   setShowNotificationTrue: () => set({ showNotification: true }),
   setShowNotificationFalse: () => set({ showNotification: false }),
 }));
-

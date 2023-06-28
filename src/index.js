@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import "./index.css";
-
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Home from "./pages/Home/Home";
 import Shop from "./pages/Shop/Shop";
@@ -13,7 +12,6 @@ import Carret from "./pages/Carret/Carret";
 import ShopItemDetails from "./pages/ShopItemDetails/ShopItemDetails";
 import Order from "./pages/Order/Order";
 import reportWebVitals from './reportWebVitals';
-
 
 const router = createBrowserRouter([
   {

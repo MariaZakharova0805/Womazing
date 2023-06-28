@@ -44,7 +44,7 @@ const ShopItemDetails = () => {
         <div className={c.shopItem} key={item.id}>
           <div className={c.shopItem_image}>
             <HeaderH1>{item.name}</HeaderH1>
-            <img src={item.img}/>
+            <img src={item.img} />
           </div>
           <div className={c.shopItem_details}>
             <h2>{item.price}$</h2>
