@@ -1,5 +1,5 @@
 # Womazing
-![Project illustartion](https://github.com/MariaZakharova0805/tattoo/raw/main/screenshot.jpg)
+![Project illustartion](https://github.com/MariaZakharova0805/Womazing/raw/main/screenshot.jpg)
 Online store for women's clothing
 
 ### Project Features
