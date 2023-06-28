@@ -1,5 +1,5 @@
 # Womazing
-![Project illustartion](https://github.com/MariaZakharova0805/Womazing/raw/main/screenshot.jpg)
+<a href="https://womazing-cra.vercel.app/" target="_blank">![Project illustartion](https://github.com/MariaZakharova0805/Womazing/raw/main/screenshot.jpg)</a>
 Online store for women's clothing
 
 ### Project Features
